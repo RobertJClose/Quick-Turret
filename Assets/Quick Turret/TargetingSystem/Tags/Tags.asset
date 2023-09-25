@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5547a292fe0b8c4a988d9655412be7d, type: 3}
+  m_Name: Tags
+  m_EditorClassIdentifier: 
+  Tags:
+  - guid:
+      serializedGuid: 72bf4cc4-c79a-488e-a2e2-fa63a497c65b
+    Name: Avoid
+    Type: 0
+  - guid:
+      serializedGuid: 5d8c60f8-c0ae-4981-9ca9-8c88e99b662e
+    Name: Armoured
+    Type: 1
+  - guid:
+      serializedGuid: d208ab00-421c-4da7-98d6-849c1df08cb9
+    Name: Has Weak Spots
+    Type: 1
+  - guid:
+      serializedGuid: 55daad19-3ab6-4594-aed6-a75edb0a6c85
+    Name: Weak Spot
+    Type: 2
+  - guid:
+      serializedGuid: ba2ae8ba-cb00-4aca-8cb1-df27e01a2732
+    Name: Armour
+    Type: 2

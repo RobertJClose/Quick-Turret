@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cc90d9a1d7425d448ec937764fcef77, type: 3}
+  m_Name: Damage Text Settings
+  m_EditorClassIdentifier: 
+  DamageTextPrefab: {fileID: 7600006112560444533, guid: 290dad6058999de4cb846046c672188e, type: 3}
+  BaseSettings:
+    FontAsset: {fileID: 11400000, guid: 45c28af64d86aee4f9921ccbd0595d73, type: 2}
+    FontSize: 36
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    TweenClimbAmount: 0
+    TweenLifetime: 1
+    TweenRandomness: 0.5
+  CriticalSettings:
+    FontAsset: {fileID: 11400000, guid: 45c28af64d86aee4f9921ccbd0595d73, type: 2}
+    FontSize: 48
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontOutlineColor: {r: 1, g: 0, b: 0, a: 1}
+    TweenClimbAmount: 4
+    TweenLifetime: 3
+    TweenRandomness: 1
+    DamageType: 2
+    Priority: -50
+    DoesOverride: 00010001010101
+  ArmourPiercingSettings:
+    FontAsset: {fileID: 0}
+    FontSize: 40
+    FontColor: {r: 1, g: 0.5703676, b: 0, a: 1}
+    FontOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    TweenClimbAmount: 0
+    TweenLifetime: 1
+    TweenRandomness: 0.5
+    DamageType: 4
+    Priority: 0
+    DoesOverride: 00010100000000
+  BlockedSetting:
+    FontAsset: {fileID: 0}
+    FontSize: 36
+    FontColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+    FontOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    TweenClimbAmount: 0
+    TweenLifetime: 1
+    TweenRandomness: 0.5
+    DamageType: 8
+    Priority: -100
+    DoesOverride: 00000100000000
+  FromStatusSetting:
+    FontAsset: {fileID: 0}
+    FontSize: 36
+    FontColor: {r: 1, g: 1, b: 1, a: 1}
+    FontOutlineColor: {r: 1, g: 0.85159767, b: 0, a: 1}
+    TweenClimbAmount: 4
+    TweenLifetime: 3
+    TweenRandomness: 0.9
+    DamageType: 32
+    Priority: -1000
+    DoesOverride: 00000001010101
+  BleedSetting:
+    FontAsset: {fileID: 0}
+    FontSize: 40
+    FontColor: {r: 0.5566038, g: 0, b: 0, a: 1}
+    FontOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    TweenClimbAmount: 0
+    TweenLifetime: 1
+    TweenRandomness: 0.844
+    DamageType: 64
+    Priority: -100
+    DoesOverride: 00000100000000
+  CorrodeSetting:
+    FontAsset: {fileID: 0}
+    FontSize: 36
+    FontColor: {r: 0, g: 1, b: 0.35673928, a: 1}
+    FontOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    TweenClimbAmount: 0
+    TweenLifetime: 1
+    TweenRandomness: 0.5
+    DamageType: 128
+    Priority: -100
+    DoesOverride: 00000100000000
