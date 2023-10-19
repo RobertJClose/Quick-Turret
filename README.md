@@ -1,7 +1,7 @@
 # Quick-Turret
 You can read more about this project here: https://robbonet.netlify.app/projects/untitled-tower-defence.
 
-This project owes some of its funcationality to the following packages:
+This project owes some of its functionality to the following packages:
 * Demigiants' Tweening Library: https://dotween.demigiant.com/
 * Searous' serializable GUID wrapper: https://github.com/Searous/Unity.SerializableGuid
 * TextMeshPro
